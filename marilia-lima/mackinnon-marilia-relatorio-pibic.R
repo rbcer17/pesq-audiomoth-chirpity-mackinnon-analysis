@@ -20,7 +20,7 @@ macki=as.data.frame(abundance_list_co_mackinnon_audiomoth_unedited_data)
 #repetir a analise so com as aves de bsb
 macki=as.data.frame(marilia_renomeada_so_bsb_so_audiomoth_mackinnon_wikiaves)
 iNEXT(macki, q=0, datatype="abundance")
-dadograftot = iNEXT(macki, q=0, datatype="abundance", endpoint=5000)
+dadograftot = iNEXT(macki, q=0, datatype="abundance")
 ggiNEXT(dadograftot, type=1, se=TRUE, facet.var="None", color.var="Both", grey=FALSE)
 #
 dadograftot = iNEXT(macki, q=0, datatype="abundance")
